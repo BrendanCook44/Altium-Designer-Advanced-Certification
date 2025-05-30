@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FlattenedNetName2ConstraintNetId>
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="BUS1" ConstraintNetId="8f67c6f2-548e-4760-9d49-1762bae50515" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="OBUS1" ConstraintNetId="1ee646cf-8355-4023-bd4e-d6e02ef07a1a" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="BUS2" ConstraintNetId="b7f6344d-9f44-4112-bc17-a19ee8f119a0" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="OBUS2" ConstraintNetId="59b31738-4e00-4e77-afbe-ad65c107e8bc" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="BUS3" ConstraintNetId="a31f4304-2984-4721-ba77-6b92a7f5aa45" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="OBUS3" ConstraintNetId="1a0bd8fe-453f-48e4-ae89-5356e085d8ce" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="BUS4" ConstraintNetId="05b25e09-0502-4f7d-8050-2ab11bdd8acc" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="OBUS4" ConstraintNetId="d94ca0dd-860a-4402-9953-664ed104bfdf" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="TJUNCT" ConstraintNetId="80f1336f-6057-48ed-9777-cc32728b03b6" />
+  </FlattenedNetName2ConstraintNetId>
+  <CNets>
+    <CNet Id="8f67c6f2-548e-4760-9d49-1762bae50515">
+      <Constraints>
+        <Constraint Id="455476c1-d7ee-4050-a1e1-4b6df2922b96" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InNet('BUS1')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1" />
+        <Constraint Id="1921cdae-1b2a-4ae6-bea1-2d53e3858804" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="InNet('BUS1')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes>
+        <ConstraintNode Id="b46176d9-12f2-4416-b89f-32e9dfd13128" PinUniqueId="GSXXUYSL" ComponentUniqueId="\BOWDFWHC" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+      </ConstraintNodes>
+    </CNet>
+    <CNet Id="1ee646cf-8355-4023-bd4e-d6e02ef07a1a">
+      <Constraints>
+        <Constraint Id="ac30d6dd-0284-4e20-b072-b717b5b0b809" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Shortest]" Scope1="InNet('OBUS1')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Shortest" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes>
+        <ConstraintNode Id="e9f4448c-01f7-4246-8159-bf0bfcbbcba2" PinUniqueId="FIJHGKLR" ComponentUniqueId="\SBNDAEXF" FromToIndex="1" FromToRole="2" FromToOrderId="2" />
+        <ConstraintNode Id="08cef4cc-cd8f-4a5d-8043-0235444ec81d" PinUniqueId="RSZCBYAC" ComponentUniqueId="\SKAXWRPR" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+      </ConstraintNodes>
+    </CNet>
+    <CNet Id="b7f6344d-9f44-4112-bc17-a19ee8f119a0">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="59b31738-4e00-4e77-afbe-ad65c107e8bc">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="a31f4304-2984-4721-ba77-6b92a7f5aa45">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="1a0bd8fe-453f-48e4-ae89-5356e085d8ce">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="05b25e09-0502-4f7d-8050-2ab11bdd8acc">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="d94ca0dd-860a-4402-9953-664ed104bfdf">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="80f1336f-6057-48ed-9777-cc32728b03b6">
+      <Constraints>
+        <Constraint Id="46b645e0-e0e7-49b5-a7de-d1f68bcab5f0" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InNet('TJUNCT')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\DXWOPPJU,1,1,3;\KRWLRXYP,2,2,1;\OBAYTUIS,2,2,2;\NNMMEJJH,2,2,3;\RFBIXIVG,2,2,4|SELECTEDPINPAIRS=0,1,2,3" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes>
+        <ConstraintNode Id="00605095-f6c5-4795-888b-5c54a28199e3" PinUniqueId="AGLLKLIO" ComponentUniqueId="\KRWLRXYP" FromToIndex="1" FromToRole="2" FromToOrderId="2" />
+        <ConstraintNode Id="9a858c0f-fb9a-4c25-b7f5-fc2d0520d75d" PinUniqueId="HKNPKWLE" ComponentUniqueId="\OBAYTUIS" FromToIndex="2" FromToRole="2" FromToOrderId="2" />
+        <ConstraintNode Id="5c1dfc76-04b8-4ee8-8c5b-f7cec1bb66c7" PinUniqueId="EPDHWOKF" ComponentUniqueId="\NNMMEJJH" FromToIndex="3" FromToRole="2" FromToOrderId="2" />
+        <ConstraintNode Id="df3cbc67-2838-4f50-900e-0c898695db29" PinUniqueId="YGVGGWPL" ComponentUniqueId="\RFBIXIVG" FromToIndex="4" FromToRole="2" FromToOrderId="2" />
+        <ConstraintNode Id="84cc6578-4b67-4138-ae6c-93eb3b97e127" PinUniqueId="XZIQPTYC" ComponentUniqueId="\DXWOPPJU" FromToIndex="3" FromToRole="1" FromToOrderId="1" />
+      </ConstraintNodes>
+    </CNet>
+  </CNets>
+  <CNetClasses>
+    <CNetClass Id="2feabf55-7b31-4468-8061-a6c3f0cf32cd" Name="All Nets" IsPredefined="true" Domain="2">
+      <Constraints>
+        <Constraint Id="3171eb1a-4f04-43d4-9e1e-0ef1177315ba" Kind="2" Name="Schematic Width Constraint" Comment="" Description="Width Constraint [Pref Width = 10mil    Min Width = 10mil    Max Width = 10mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=10mil|MINLIMIT=10mil|PREFEREDWIDTH=10mil" />
+        <Constraint Id="c06734b5-f38f-464f-9d63-9c8bb34fe6f5" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Shortest]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Shortest" />
+        <Constraint Id="3da2b371-74e4-4988-a8fc-c0d0e128195b" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+        <Constraint Id="59251106-bf60-4bae-b516-5c5fd0c72632" Kind="11" Name="Schematic Routing Via Style" Comment="" Description="Routing Via Style [Pref Size = 50mil    Pref Hole Size = 28mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|HOLEWIDTH=28mil|WIDTH=50mil|VIASTYLE=Through Hole|MINHOLEWIDTH=28mil|MINWIDTH=50mil|MAXHOLEWIDTH=28mil|MAXWIDTH=50mil" />
+        <Constraint Id="f3287ec7-4908-46da-af88-4fecff2ebaf0" Kind="20" Name="Schematic Polygon Connect Style" Comment="" Description="Polygon Connect Style [Style - Relief Connect    Width = 10mil    Angle = 90    # Entries = 4    Air Gap = 10mil    ]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|CONNECTSTYLE=Relief|RELIEFCONDUCTORWIDTH=10mil|RELIEFENTRIES=4|POLYGONRELIEFANGLE=90 Angle|AIRGAPWIDTH=10mil" />
+        <Constraint Id="e1626995-eafb-4fc1-8245-f05ab0a65a0f" Kind="51" Name="Schematic Differential Pairs Routing" Comment="" Description="Differential Pairs Routing [Pref Gap = 10mil    Min Gap  = 10mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 15mil    Max Width  = 15mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=10mil|MINLIMIT=10mil|MOSTFREQGAP=10mil|TOPLAYER_MINWIDTH=15mil|TOPLAYER_MAXWIDTH=15mil|TOPLAYER_PREFWIDTH=15mil|MIDLAYER1_MINWIDTH=15mil|MIDLAYER1_MAXWIDTH=15mil|MIDLAYER1_PREFWIDTH=15mil|MIDLAYER2_MINWIDTH=15mil|MIDLAYER2_MAXWIDTH=15mil|MIDLAYER2_PREFWIDTH=15mil|MIDLAYER3_MINWIDTH=15mil|MIDLAYER3_MAXWIDTH=15mil|MIDLAYER3_PREFWIDTH=15mil|MIDLAYER4_MINWIDTH=15mil|MIDLAYER4_MAXWIDTH=15mil|MIDLAYER4_PREFWIDTH=15mil|MIDLAYER5_MINWIDTH=15mil|MIDLAYER5_MAXWIDTH=15mil|MIDLAYER5_PREFWIDTH=15mil|MIDLAYER6_MINWIDTH=15mil|MIDLAYER6_MAXWIDTH=15mil|MIDLAYER6_PREFWIDTH=15mil|MIDLAYER7_MINWIDTH=15mil|MIDLAYER7_MAXWIDTH=15mil|MIDLAYER7_PREFWIDTH=15mil|MIDLAYER8_MINWIDTH=15mil|MIDLAYER8_MAXWIDTH=15mil|MIDLAYER8_PREFWIDTH=15mil|MIDLAYER9_MINWIDTH=15mil|MIDLAYER9_MAXWIDTH=15mil|MIDLAYER9_PREFWIDTH=15mil|MIDLAYER10_MINWIDTH=15mil|MIDLAYER10_MAXWIDTH=15mil|MIDLAYER10_PREFWIDTH=15mil|MIDLAYER11_MINWIDTH=15mil|MIDLAYER11_MAXWIDTH=15mil|MIDLAYER11_PREFWIDTH=15mil|MIDLAYER12_MINWIDTH=15mil|MIDLAYER12_MAXWIDTH=15mil|MIDLAYER12_PREFWIDTH=15mil|MIDLAYER13_MINWIDTH=15mil|MIDLAYER13_MAXWIDTH=15mil|MIDLAYER13_PREFWIDTH=15mil|MIDLAYER14_MINWIDTH=15mil|MIDLAYER14_MAXWIDTH=15mil|MIDLAYER14_PREFWIDTH=15mil|MIDLAYER15_MINWIDTH=15mil|MIDLAYER15_MAXWIDTH=15mil|MIDLAYER15_PREFWIDTH=15mil|MIDLAYER16_MINWIDTH=15mil|MIDLAYER16_MAXWIDTH=15mil|MIDLAYER16_PREFWIDTH=15mil|MIDLAYER17_MINWIDTH=15mil|MIDLAYER17_MAXWIDTH=15mil|MIDLAYER17_PREFWIDTH=15mil|MIDLAYER18_MINWIDTH=15mil|MIDLAYER18_MAXWIDTH=15mil|MIDLAYER18_PREFWIDTH=15mil|MIDLAYER19_MINWIDTH=15mil|MIDLAYER19_MAXWIDTH=15mil|MIDLAYER19_PREFWIDTH=15mil|MIDLAYER20_MINWIDTH=15mil|MIDLAYER20_MAXWIDTH=15mil|MIDLAYER20_PREFWIDTH=15mil|MIDLAYER21_MINWIDTH=15mil|MIDLAYER21_MAXWIDTH=15mil|MIDLAYER21_PREFWIDTH=15mil|MIDLAYER22_MINWIDTH=15mil|MIDLAYER22_MAXWIDTH=15mil|MIDLAYER22_PREFWIDTH=15mil|MIDLAYER23_MINWIDTH=15mil|MIDLAYER23_MAXWIDTH=15mil|MIDLAYER23_PREFWIDTH=15mil|MIDLAYER24_MINWIDTH=15mil|MIDLAYER24_MAXWIDTH=15mil|MIDLAYER24_PREFWIDTH=15mil|MIDLAYER25_MINWIDTH=15mil|MIDLAYER25_MAXWIDTH=15mil|MIDLAYER25_PREFWIDTH=15mil|MIDLAYER26_MINWIDTH=15mil|MIDLAYER26_MAXWIDTH=15mil|MIDLAYER26_PREFWIDTH=15mil|MIDLAYER27_MINWIDTH=15mil|MIDLAYER27_MAXWIDTH=15mil|MIDLAYER27_PREFWIDTH=15mil|MIDLAYER28_MINWIDTH=15mil|MIDLAYER28_MAXWIDTH=15mil|MIDLAYER28_PREFWIDTH=15mil|MIDLAYER29_MINWIDTH=15mil|MIDLAYER29_MAXWIDTH=15mil|MIDLAYER29_PREFWIDTH=15mil|MIDLAYER30_MINWIDTH=15mil|MIDLAYER30_MAXWIDTH=15mil|MIDLAYER30_PREFWIDTH=15mil|BOTTOMLAYER_MINWIDTH=15mil|BOTTOMLAYER_MAXWIDTH=15mil|BOTTOMLAYER_PREFWIDTH=15mil|MAXUNCOUPLEDLENGTH=500mil" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets />
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+  </CNetClasses>
+  <CDifferentialPairs />
+  <CDifferentialPairClasses>
+    <CDifferentialPairClass Id="74334e15-cda2-4ceb-862a-f881a92bbf92" Name="All Differential Pairs" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CDifferentialPairs />
+      <ObservedDirectiveParamsUniqueIds />
+    </CDifferentialPairClass>
+  </CDifferentialPairClasses>
+  <CPinPairs>
+    <CPinPair Id="bfe76dd8-de26-46b0-a9c9-66467857c567" Name="BUS1_P1-1_P2-4" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\BOWDFWHC-1</string>
+        <string>\SKAXWRPR-2</string>
+        <string>\SKAXWRPR</string>
+        <string>\SKAXWRPR-1</string>
+        <string>\SBNDAEXF-4</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="816c9a34-d5c7-4051-b0a9-64f24e1a44ac" Name="BUS2_P1-2_P2-3" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\BOWDFWHC-2</string>
+        <string>\EFEXUGKM-2</string>
+        <string>\EFEXUGKM</string>
+        <string>\EFEXUGKM-1</string>
+        <string>\SBNDAEXF-3</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="6edf160a-3c75-474e-ac3e-93f3fcb8bf50" Name="BUS3_P1-3_P2-2" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\BOWDFWHC-3</string>
+        <string>\NJUVYJJV-2</string>
+        <string>\NJUVYJJV</string>
+        <string>\NJUVYJJV-1</string>
+        <string>\SBNDAEXF-2</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="c61343ba-8413-4ed2-9a0b-51cbd780545e" Name="BUS4_P1-4_P2-1" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\BOWDFWHC-4</string>
+        <string>\NRPHEQDE-2</string>
+        <string>\NRPHEQDE</string>
+        <string>\NRPHEQDE-1</string>
+        <string>\SBNDAEXF-1</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="c4d08e35-c10e-4e09-bc02-f0af334c584a" Name="TJUNCT_R10-2_P3-1" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\DXWOPPJU-2</string>
+        <string>\KRWLRXYP-1</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="80695508-7fb1-427e-a416-0cc48fe2d89d" Name="TJUNCT_R10-2_P4-1" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\DXWOPPJU-2</string>
+        <string>\OBAYTUIS-1</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="c67fc496-7568-4e9b-af88-54be6c6ea822" Name="TJUNCT_R10-2_P5-1" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\DXWOPPJU-2</string>
+        <string>\NNMMEJJH-1</string>
+      </Primitives>
+    </CPinPair>
+    <CPinPair Id="b7b7f816-82d9-4a52-b2af-b0be35f119d0" Name="TJUNCT_R10-2_P6-1" IsSource="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <Primitives>
+        <string>\DXWOPPJU-2</string>
+        <string>\RFBIXIVG-1</string>
+      </Primitives>
+    </CPinPair>
+  </CPinPairs>
+  <CxSigClasses>
+    <CxSigClass Id="592e51f3-3369-4131-ac8a-e0183d648788" Name="Series-Term" IsPredefined="false">
+      <Constraints>
+        <Constraint Id="2176f191-224f-4494-81c3-88af4d669d89" Kind="4" Name="Schematic Matched Net Lengths" Comment="" Description="Matched Net Lengths [Tolerance = 10mil Target = BUS4_P1-4_P2-1]" Scope1="InxSignalClass('Series-Term')" Scope2="All" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|TOLERANCE=10mil|CHECKNETSINDIFFPAIR=FALSE|CHECKDIFFPAIRVSDIFFPAIR=TRUE|CHECKXSIGNALS=TRUE|CHECKOTHERS=TRUE|TARGETSOURCENAME=BUS4_P1-4_P2-1" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CPinPairs>
+        <CPinPair Id="bfe76dd8-de26-46b0-a9c9-66467857c567" />
+        <CPinPair Id="816c9a34-d5c7-4051-b0a9-64f24e1a44ac" />
+        <CPinPair Id="6edf160a-3c75-474e-ac3e-93f3fcb8bf50" />
+        <CPinPair Id="c61343ba-8413-4ed2-9a0b-51cbd780545e" />
+      </CPinPairs>
+    </CxSigClass>
+    <CxSigClass Id="ad085c29-0765-4463-875c-f9a61ca35a5b" Name="T-Junction" IsPredefined="false">
+      <Constraints>
+        <Constraint Id="0244d151-cf82-4b75-b225-373fa49cfb44" Kind="4" Name="Schematic Matched Net Lengths" Comment="" Description="Matched Net Lengths [Tolerance = 10mil]" Scope1="InxSignalClass('T-Junction')" Scope2="All" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|TOLERANCE=10mil|CHECKNETSINDIFFPAIR=FALSE|CHECKDIFFPAIRVSDIFFPAIR=TRUE|CHECKXSIGNALS=TRUE|CHECKOTHERS=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CPinPairs>
+        <CPinPair Id="c4d08e35-c10e-4e09-bc02-f0af334c584a" />
+        <CPinPair Id="80695508-7fb1-427e-a416-0cc48fe2d89d" />
+        <CPinPair Id="c67fc496-7568-4e9b-af88-54be6c6ea822" />
+        <CPinPair Id="b7b7f816-82d9-4a52-b2af-b0be35f119d0" />
+      </CPinPairs>
+    </CxSigClass>
+  </CxSigClasses>
+  <CxNets>
+    <CxNet Id="68f9fe53-5b9a-44d8-9e95-2287afe15219" Name="BUS1">
+      <Constraints>
+        <Constraint Id="d784f6ec-6973-4669-8848-5db980f386e0" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InxNet('BUS1')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1;\SKAXWRPR,0,2,1;\SBNDAEXF,2,3,1|INCLASSES=0,Series-Term|SELECTEDPINPAIRS=0" />
+        <Constraint Id="4cc72e3a-440b-47a6-8837-3a7e2b35c1d2" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="InxNet('BUS1')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets>
+        <guid>6a8e4bd2-75b7-4a85-89c6-03a2a2ad4f38</guid>
+      </ConstraintSets>
+      <ConstraintNodes>
+        <ConstraintNode Id="445d6442-fbf2-4fc2-9c11-ee113e0e9c45" PinUniqueId="GSXXUYSL" ComponentUniqueId="\BOWDFWHC" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+        <ConstraintNode Id="33abf1f0-5ee1-4dab-aae6-b531e4f838d2" PinUniqueId="FIJHGKLR" ComponentUniqueId="\SBNDAEXF" FromToIndex="1" FromToRole="2" FromToOrderId="3" />
+        <ConstraintNode Id="8a911b0c-2423-4aff-ada2-6e6baf3c92e7" PinUniqueId="" ComponentUniqueId="\SKAXWRPR" FromToIndex="1" FromToRole="0" FromToOrderId="2" />
+      </ConstraintNodes>
+      <CNets>
+        <CNet Id="8f67c6f2-548e-4760-9d49-1762bae50515" />
+        <CNet Id="1ee646cf-8355-4023-bd4e-d6e02ef07a1a" />
+      </CNets>
+      <CPinPairs />
+    </CxNet>
+    <CxNet Id="512c831e-2751-43c9-9909-c0385e43492c" Name="BUS2">
+      <Constraints>
+        <Constraint Id="fea713e3-5020-463a-b36a-db7053382de4" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InxNet('BUS2')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1;\EFEXUGKM,0,2,1;\SBNDAEXF,2,3,1|INCLASSES=0,Series-Term|SELECTEDPINPAIRS=0" />
+        <Constraint Id="899dcb62-7be3-495c-ab03-34d23398e8b9" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="InxNet('BUS2')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets>
+        <guid>6a8e4bd2-75b7-4a85-89c6-03a2a2ad4f38</guid>
+      </ConstraintSets>
+      <ConstraintNodes>
+        <ConstraintNode Id="7f7fd5e3-fa73-467d-acfc-1ada88ee4517" PinUniqueId="PYICSBFL" ComponentUniqueId="\BOWDFWHC" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+        <ConstraintNode Id="b762b704-a777-4c6a-abcc-41eea8325938" PinUniqueId="ZZFXFJJI" ComponentUniqueId="\SBNDAEXF" FromToIndex="1" FromToRole="2" FromToOrderId="3" />
+        <ConstraintNode Id="e4be0118-b77b-4b00-994d-cf4ab26cde84" PinUniqueId="" ComponentUniqueId="\EFEXUGKM" FromToIndex="1" FromToRole="0" FromToOrderId="2" />
+      </ConstraintNodes>
+      <CNets>
+        <CNet Id="b7f6344d-9f44-4112-bc17-a19ee8f119a0" />
+        <CNet Id="59b31738-4e00-4e77-afbe-ad65c107e8bc" />
+      </CNets>
+      <CPinPairs />
+    </CxNet>
+    <CxNet Id="eafd570b-c793-4767-b1ce-0ff99b6831ff" Name="BUS3">
+      <Constraints>
+        <Constraint Id="148272d4-2ccf-4786-a541-ed3c7cbdafb4" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InxNet('BUS3')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1;\NJUVYJJV,0,2,1;\SBNDAEXF,2,3,1|INCLASSES=0,Series-Term|SELECTEDPINPAIRS=0" />
+        <Constraint Id="18b5669c-c787-4777-a91d-54996186c9b5" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="InxNet('BUS3')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets>
+        <guid>6a8e4bd2-75b7-4a85-89c6-03a2a2ad4f38</guid>
+      </ConstraintSets>
+      <ConstraintNodes>
+        <ConstraintNode Id="6237ffeb-4003-4f6c-bb1d-6a2a3c0fb6df" PinUniqueId="NHBCLNZL" ComponentUniqueId="\BOWDFWHC" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+        <ConstraintNode Id="57b6b108-9f0b-4662-95ed-599c5f2ce9e2" PinUniqueId="UHOZQFUB" ComponentUniqueId="\SBNDAEXF" FromToIndex="1" FromToRole="2" FromToOrderId="3" />
+        <ConstraintNode Id="987b6ef8-fd1e-4843-9ca1-4f21eb56db4f" PinUniqueId="" ComponentUniqueId="\NJUVYJJV" FromToIndex="1" FromToRole="0" FromToOrderId="2" />
+      </ConstraintNodes>
+      <CNets>
+        <CNet Id="a31f4304-2984-4721-ba77-6b92a7f5aa45" />
+        <CNet Id="1a0bd8fe-453f-48e4-ae89-5356e085d8ce" />
+      </CNets>
+      <CPinPairs />
+    </CxNet>
+    <CxNet Id="38147c9a-bb01-4e54-8d74-36ca9a288d59" Name="BUS4">
+      <Constraints>
+        <Constraint Id="92b66e6d-d6ce-4558-8808-d07c80e943ef" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="InxNet('BUS4')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1;\NRPHEQDE,0,2,1;\SBNDAEXF,2,3,1|INCLASSES=0,Series-Term|SELECTEDPINPAIRS=0" />
+        <Constraint Id="3619f474-d2fa-46ed-94e9-a47c6f141552" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="InxNet('BUS4')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets>
+        <guid>6a8e4bd2-75b7-4a85-89c6-03a2a2ad4f38</guid>
+      </ConstraintSets>
+      <ConstraintNodes>
+        <ConstraintNode Id="a948440b-37f4-43a2-ac5e-a20e0a517a62" PinUniqueId="ENBNSMFT" ComponentUniqueId="\BOWDFWHC" FromToIndex="1" FromToRole="1" FromToOrderId="1" />
+        <ConstraintNode Id="66e6de0e-b8a2-4f22-ac83-50c97200abce" PinUniqueId="SCEMFKVM" ComponentUniqueId="\SBNDAEXF" FromToIndex="1" FromToRole="2" FromToOrderId="3" />
+        <ConstraintNode Id="fa1bc467-bddf-4cfb-b7eb-0a7e05047f8e" PinUniqueId="" ComponentUniqueId="\NRPHEQDE" FromToIndex="1" FromToRole="0" FromToOrderId="2" />
+      </ConstraintNodes>
+      <CNets>
+        <CNet Id="05b25e09-0502-4f7d-8050-2ab11bdd8acc" />
+        <CNet Id="d94ca0dd-860a-4402-9953-664ed104bfdf" />
+      </CNets>
+      <CPinPairs />
+    </CxNet>
+  </CxNets>
+  <CXNetClasses>
+    <CXNetClass Id="c90287d2-ef2d-4cb7-81cd-f6a8695c331c" Name="All xNets" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CXNets />
+    </CXNetClass>
+    <CXNetClass Id="1154d0fa-8814-4c14-bd3b-c95407bdd992" Name="Series-Term" IsPredefined="false">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CXNets>
+        <CXNet Id="68f9fe53-5b9a-44d8-9e95-2287afe15219" />
+        <CXNet Id="512c831e-2751-43c9-9909-c0385e43492c" />
+        <CXNet Id="eafd570b-c793-4767-b1ce-0ff99b6831ff" />
+        <CXNet Id="38147c9a-bb01-4e54-8d74-36ca9a288d59" />
+      </CXNets>
+    </CXNetClass>
+  </CXNetClasses>
+  <ConstraintClearancesMatrix>
+    <CCMFromScopes>
+      <CCMFromScope Id="17e4fe16-85f5-4aac-b4cd-a87e571cc352">
+        <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+        <CCMToScopes>
+          <CCMToScope Id="13650460-9d46-4beb-be7a-f2106c93e667" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="a40ad03a-67f4-46ac-aaba-ea851221474b" Kind="0" Name="ClearanceAll_1" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="b89efdc5-f17a-414d-a597-ab790b586ea2" Kind="0" Name="ClearanceAll_2" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
+          </CCMToScope>
+        </CCMToScopes>
+      </CCMFromScope>
+    </CCMFromScopes>
+  </ConstraintClearancesMatrix>
+  <ConstraintSameNetClearancesMatrix>
+    <CCMFromScopes />
+  </ConstraintSameNetClearancesMatrix>
+  <CSets>
+    <CSet Id="6a8e4bd2-75b7-4a85-89c6-03a2a2ad4f38" Name="Series-Term" ConstraintSetType="2" OriginBoardId="">
+      <Constraints>
+        <Constraint Id="cbbb3034-4978-4f97-9d12-08e8eeab90c7" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Custom]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Custom|COMPONENTS=\BOWDFWHC,1,1,1;\SKAXWRPR,0,2,1;\SBNDAEXF,2,3,1|SELECTEDPINPAIRS=0" />
+        <Constraint Id="3fe814c1-c176-40b3-8644-71a1a1469f19" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+    </CSet>
+  </CSets>
+  <CClearancesMatrixSets />
+  <CCMCreepageConstraints />
+  <CImportedDirectiveUniqueIds />
+  <OtherConstraints />
+  <NetGroups />
+  <XNetDiffPairs />
+  <Settings UnitSystem="Imperial" />
+  <FileVersion MinorVersion="6">
+    <FileVersionInfo>H4sIAAAAAAAACj2OQW6DMBBFrzIXACWE1HTBomqkrrKpUPfGDDCp8ViecSMkDl/Sqt0+6f3/3jIN7Wiez8bZuuirc1XUjTkWjTk1xWCe+tEatMdx3C7s8oJBuzViW21XCpw+MAlxaE/bO3q0gn+gqsumPGyvvESr1JMnXX/Ew3ZFETth280kEBPf0Ck4DmopCKTsUSALhQlcFuUFvF0xgah1n1JCN6Mg3Ml76BE8i8J9xgAcMTwknfF/lQJY+PpNAh7hxSvlBS4oNIV9U2erMPB+GFhBcoycdKd72JiD012zj/LyG9yj5AYmAQAA</FileVersionInfo>
+  </FileVersion>
+</ConstraintsData>

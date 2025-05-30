@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=SCH-MB-BicycleHeadLamp - Brendan Cook.MbsDoc|Kind=Multi-board Schematic Module|Designator=M2|Source=..\Bicycle-LED_Board - Brendan Cook\Bicycle-LED_Board - Brendan Cook.PrjPcb
+Record=SubProject|SourceDocument=SCH-MB-BicycleHeadLamp - Brendan Cook.MbsDoc|ProjectPath=..\Bicycle-LED_Board - Brendan Cook\Bicycle-LED_Board - Brendan Cook.PrjPcb
+Record=DiagramHierarchy|SourceDocument=SCH-MB-BicycleHeadLamp - Brendan Cook.MbsDoc|Kind=Multi-board Schematic Module|Designator=M1|Source=..\Bicycle_Head_Lamp_MainBrd - Brendan Cook\Bicycle_Head_Lamp_MainBrd - Brendan Cook.PrjPcb
+Record=SubProject|SourceDocument=SCH-MB-BicycleHeadLamp - Brendan Cook.MbsDoc|ProjectPath=..\Bicycle_Head_Lamp_MainBrd - Brendan Cook\Bicycle_Head_Lamp_MainBrd - Brendan Cook.PrjPcb

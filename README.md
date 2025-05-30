@@ -1,1 +1,1 @@
-# Altium-Designer-Advanced-Specialization
+Altium Designer Advanced with Altium 365 Training

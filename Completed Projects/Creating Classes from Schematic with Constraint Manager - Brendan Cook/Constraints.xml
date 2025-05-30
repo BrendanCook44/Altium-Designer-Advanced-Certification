@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintsData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FlattenedNetName2ConstraintNetId>
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetF1_1" ConstraintNetId="3d9dda5e-0e36-49c6-af14-a0808ba246c5" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetF1_2" ConstraintNetId="1b6d0355-af2c-464b-85d3-e9f75618d776" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetF2_2" ConstraintNetId="3742b2c2-0d80-42fa-837c-b042939969e1" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetT2_1" ConstraintNetId="d5806ac1-3d3d-45e7-9266-4a653a836797" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetF3_2" ConstraintNetId="dd4012d8-faae-44c1-be25-cdc00fdab5f9" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetF2_1" ConstraintNetId="dfca01f5-0739-440f-8771-e388e028dbcb" />
+    <FlattenedNetName2ConstraintNetIdEntry FlattenedNetName="NetT4_1" ConstraintNetId="27e39195-c1b2-4919-9266-38e9dd5195c9" />
+  </FlattenedNetName2ConstraintNetId>
+  <CNets>
+    <CNet Id="3d9dda5e-0e36-49c6-af14-a0808ba246c5">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="1b6d0355-af2c-464b-85d3-e9f75618d776">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="3742b2c2-0d80-42fa-837c-b042939969e1">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="d5806ac1-3d3d-45e7-9266-4a653a836797">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="dd4012d8-faae-44c1-be25-cdc00fdab5f9">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="dfca01f5-0739-440f-8771-e388e028dbcb">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+    <CNet Id="27e39195-c1b2-4919-9266-38e9dd5195c9">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <ConstraintNodes />
+    </CNet>
+  </CNets>
+  <CNetClasses>
+    <CNetClass Id="4b93d09e-2f92-4597-9f78-a1e063bf7e52" Name="All Nets" IsPredefined="true" Domain="2">
+      <Constraints>
+        <Constraint Id="29d4cea7-7c1a-4280-ad44-510683b318be" Kind="2" Name="Schematic Width Constraint" Comment="" Description="Width Constraint [Pref Width = 10mil    Min Width = 10mil    Max Width = 10mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=10mil|MINLIMIT=10mil|PREFEREDWIDTH=10mil" />
+        <Constraint Id="4b075ce5-1d8e-44c0-9a1c-ece200e56c7f" Kind="7" Name="Schematic Routing Topology" Comment="" Description="Routing Topology [Topology - Shortest]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOPOLOGY=Shortest" />
+        <Constraint Id="e4750445-b010-4a26-82be-80647f079fb9" Kind="9" Name="Schematic Routing Layers" Comment="" Description="Routing Layers [TopLayer - Enabled BottomLayer - Enabled ]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|TOP LAYER_V5=TRUE|MID LAYER 1_V5=TRUE|MID LAYER 2_V5=TRUE|MID LAYER 3_V5=TRUE|MID LAYER 4_V5=TRUE|MID LAYER 5_V5=TRUE|MID LAYER 6_V5=TRUE|MID LAYER 7_V5=TRUE|MID LAYER 8_V5=TRUE|MID LAYER 9_V5=TRUE|MID LAYER 10_V5=TRUE|MID LAYER 11_V5=TRUE|MID LAYER 12_V5=TRUE|MID LAYER 13_V5=TRUE|MID LAYER 14_V5=TRUE|MID LAYER 15_V5=TRUE|MID LAYER 16_V5=TRUE|MID LAYER 17_V5=TRUE|MID LAYER 18_V5=TRUE|MID LAYER 19_V5=TRUE|MID LAYER 20_V5=TRUE|MID LAYER 21_V5=TRUE|MID LAYER 22_V5=TRUE|MID LAYER 23_V5=TRUE|MID LAYER 24_V5=TRUE|MID LAYER 25_V5=TRUE|MID LAYER 26_V5=TRUE|MID LAYER 27_V5=TRUE|MID LAYER 28_V5=TRUE|MID LAYER 29_V5=TRUE|MID LAYER 30_V5=TRUE|BOTTOM LAYER_V5=TRUE" />
+        <Constraint Id="32e820f3-e027-43fb-8ec0-32cc9c5d09ae" Kind="11" Name="Schematic Routing Via Style" Comment="" Description="Routing Via Style [Pref Size = 50mil    Pref Hole Size = 28mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|HOLEWIDTH=28mil|WIDTH=50mil|VIASTYLE=Through Hole|MINHOLEWIDTH=28mil|MINWIDTH=50mil|MAXHOLEWIDTH=28mil|MAXWIDTH=50mil" />
+        <Constraint Id="eba9a207-89ad-498e-9922-b83ab25d7a69" Kind="20" Name="Schematic Polygon Connect Style" Comment="" Description="Polygon Connect Style [Style - Relief Connect    Width = 10mil    Angle = 90    # Entries = 4    Air Gap = 10mil    ]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|CONNECTSTYLE=Relief|RELIEFCONDUCTORWIDTH=10mil|RELIEFENTRIES=4|POLYGONRELIEFANGLE=90 Angle|AIRGAPWIDTH=10mil" />
+        <Constraint Id="d646f6e2-f04d-4db6-a9e0-ec2d434d5392" Kind="51" Name="Schematic Differential Pairs Routing" Comment="" Description="Differential Pairs Routing [Pref Gap = 10mil    Min Gap  = 10mil    Max Gap  = 10milPref Width = 15mil    Min Width  = 15mil    Max Width  = 15mil]" Scope1="All" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=10mil|MINLIMIT=10mil|MOSTFREQGAP=10mil|TOPLAYER_MINWIDTH=15mil|TOPLAYER_MAXWIDTH=15mil|TOPLAYER_PREFWIDTH=15mil|MIDLAYER1_MINWIDTH=15mil|MIDLAYER1_MAXWIDTH=15mil|MIDLAYER1_PREFWIDTH=15mil|MIDLAYER2_MINWIDTH=15mil|MIDLAYER2_MAXWIDTH=15mil|MIDLAYER2_PREFWIDTH=15mil|MIDLAYER3_MINWIDTH=15mil|MIDLAYER3_MAXWIDTH=15mil|MIDLAYER3_PREFWIDTH=15mil|MIDLAYER4_MINWIDTH=15mil|MIDLAYER4_MAXWIDTH=15mil|MIDLAYER4_PREFWIDTH=15mil|MIDLAYER5_MINWIDTH=15mil|MIDLAYER5_MAXWIDTH=15mil|MIDLAYER5_PREFWIDTH=15mil|MIDLAYER6_MINWIDTH=15mil|MIDLAYER6_MAXWIDTH=15mil|MIDLAYER6_PREFWIDTH=15mil|MIDLAYER7_MINWIDTH=15mil|MIDLAYER7_MAXWIDTH=15mil|MIDLAYER7_PREFWIDTH=15mil|MIDLAYER8_MINWIDTH=15mil|MIDLAYER8_MAXWIDTH=15mil|MIDLAYER8_PREFWIDTH=15mil|MIDLAYER9_MINWIDTH=15mil|MIDLAYER9_MAXWIDTH=15mil|MIDLAYER9_PREFWIDTH=15mil|MIDLAYER10_MINWIDTH=15mil|MIDLAYER10_MAXWIDTH=15mil|MIDLAYER10_PREFWIDTH=15mil|MIDLAYER11_MINWIDTH=15mil|MIDLAYER11_MAXWIDTH=15mil|MIDLAYER11_PREFWIDTH=15mil|MIDLAYER12_MINWIDTH=15mil|MIDLAYER12_MAXWIDTH=15mil|MIDLAYER12_PREFWIDTH=15mil|MIDLAYER13_MINWIDTH=15mil|MIDLAYER13_MAXWIDTH=15mil|MIDLAYER13_PREFWIDTH=15mil|MIDLAYER14_MINWIDTH=15mil|MIDLAYER14_MAXWIDTH=15mil|MIDLAYER14_PREFWIDTH=15mil|MIDLAYER15_MINWIDTH=15mil|MIDLAYER15_MAXWIDTH=15mil|MIDLAYER15_PREFWIDTH=15mil|MIDLAYER16_MINWIDTH=15mil|MIDLAYER16_MAXWIDTH=15mil|MIDLAYER16_PREFWIDTH=15mil|MIDLAYER17_MINWIDTH=15mil|MIDLAYER17_MAXWIDTH=15mil|MIDLAYER17_PREFWIDTH=15mil|MIDLAYER18_MINWIDTH=15mil|MIDLAYER18_MAXWIDTH=15mil|MIDLAYER18_PREFWIDTH=15mil|MIDLAYER19_MINWIDTH=15mil|MIDLAYER19_MAXWIDTH=15mil|MIDLAYER19_PREFWIDTH=15mil|MIDLAYER20_MINWIDTH=15mil|MIDLAYER20_MAXWIDTH=15mil|MIDLAYER20_PREFWIDTH=15mil|MIDLAYER21_MINWIDTH=15mil|MIDLAYER21_MAXWIDTH=15mil|MIDLAYER21_PREFWIDTH=15mil|MIDLAYER22_MINWIDTH=15mil|MIDLAYER22_MAXWIDTH=15mil|MIDLAYER22_PREFWIDTH=15mil|MIDLAYER23_MINWIDTH=15mil|MIDLAYER23_MAXWIDTH=15mil|MIDLAYER23_PREFWIDTH=15mil|MIDLAYER24_MINWIDTH=15mil|MIDLAYER24_MAXWIDTH=15mil|MIDLAYER24_PREFWIDTH=15mil|MIDLAYER25_MINWIDTH=15mil|MIDLAYER25_MAXWIDTH=15mil|MIDLAYER25_PREFWIDTH=15mil|MIDLAYER26_MINWIDTH=15mil|MIDLAYER26_MAXWIDTH=15mil|MIDLAYER26_PREFWIDTH=15mil|MIDLAYER27_MINWIDTH=15mil|MIDLAYER27_MAXWIDTH=15mil|MIDLAYER27_PREFWIDTH=15mil|MIDLAYER28_MINWIDTH=15mil|MIDLAYER28_MAXWIDTH=15mil|MIDLAYER28_PREFWIDTH=15mil|MIDLAYER29_MINWIDTH=15mil|MIDLAYER29_MAXWIDTH=15mil|MIDLAYER29_PREFWIDTH=15mil|MIDLAYER30_MINWIDTH=15mil|MIDLAYER30_MAXWIDTH=15mil|MIDLAYER30_PREFWIDTH=15mil|BOTTOMLAYER_MINWIDTH=15mil|BOTTOMLAYER_MAXWIDTH=15mil|BOTTOMLAYER_PREFWIDTH=15mil|MAXUNCOUPLEDLENGTH=500mil" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets />
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="9d428f92-b373-42c9-b469-86cf6de8bb58" Name="AMP_10" IsPredefined="false" Domain="2">
+      <Constraints>
+        <Constraint Id="32ed39da-f22a-4eaf-b5d1-5cbe344565db" Kind="2" Name="Schematic Width Constraint" Comment="" Description="Width Constraint [Pref Width = 4mm    Min Width = 4mm    Max Width = 4mm]" Scope1="InNetClass('AMP_10')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=157.4803mil|MINLIMIT=157.4803mil|PREFEREDWIDTH=157.4803mil|MIDLAYER3_MINWIDTH=10mil|MIDLAYER3_MAXWIDTH=10mil|MIDLAYER3_PREFWIDTH=10mil|MIDLAYER4_MINWIDTH=10mil|MIDLAYER4_MAXWIDTH=10mil|MIDLAYER4_PREFWIDTH=10mil|MIDLAYER5_MINWIDTH=10mil|MIDLAYER5_MAXWIDTH=10mil|MIDLAYER5_PREFWIDTH=10mil|MIDLAYER6_MINWIDTH=10mil|MIDLAYER6_MAXWIDTH=10mil|MIDLAYER6_PREFWIDTH=10mil|MIDLAYER7_MINWIDTH=10mil|MIDLAYER7_MAXWIDTH=10mil|MIDLAYER7_PREFWIDTH=10mil|MIDLAYER8_MINWIDTH=10mil|MIDLAYER8_MAXWIDTH=10mil|MIDLAYER8_PREFWIDTH=10mil|MIDLAYER9_MINWIDTH=10mil|MIDLAYER9_MAXWIDTH=10mil|MIDLAYER9_PREFWIDTH=10mil|MIDLAYER10_MINWIDTH=10mil|MIDLAYER10_MAXWIDTH=10mil|MIDLAYER10_PREFWIDTH=10mil|MIDLAYER11_MINWIDTH=10mil|MIDLAYER11_MAXWIDTH=10mil|MIDLAYER11_PREFWIDTH=10mil|MIDLAYER12_MINWIDTH=10mil|MIDLAYER12_MAXWIDTH=10mil|MIDLAYER12_PREFWIDTH=10mil|MIDLAYER13_MINWIDTH=10mil|MIDLAYER13_MAXWIDTH=10mil|MIDLAYER13_PREFWIDTH=10mil|MIDLAYER14_MINWIDTH=10mil|MIDLAYER14_MAXWIDTH=10mil|MIDLAYER14_PREFWIDTH=10mil|MIDLAYER15_MINWIDTH=10mil|MIDLAYER15_MAXWIDTH=10mil|MIDLAYER15_PREFWIDTH=10mil|MIDLAYER16_MINWIDTH=10mil|MIDLAYER16_MAXWIDTH=10mil|MIDLAYER16_PREFWIDTH=10mil|MIDLAYER17_MINWIDTH=10mil|MIDLAYER17_MAXWIDTH=10mil|MIDLAYER17_PREFWIDTH=10mil|MIDLAYER18_MINWIDTH=10mil|MIDLAYER18_MAXWIDTH=10mil|MIDLAYER18_PREFWIDTH=10mil|MIDLAYER19_MINWIDTH=10mil|MIDLAYER19_MAXWIDTH=10mil|MIDLAYER19_PREFWIDTH=10mil|MIDLAYER20_MINWIDTH=10mil|MIDLAYER20_MAXWIDTH=10mil|MIDLAYER20_PREFWIDTH=10mil|MIDLAYER21_MINWIDTH=10mil|MIDLAYER21_MAXWIDTH=10mil|MIDLAYER21_PREFWIDTH=10mil|MIDLAYER22_MINWIDTH=10mil|MIDLAYER22_MAXWIDTH=10mil|MIDLAYER22_PREFWIDTH=10mil|MIDLAYER23_MINWIDTH=10mil|MIDLAYER23_MAXWIDTH=10mil|MIDLAYER23_PREFWIDTH=10mil|MIDLAYER24_MINWIDTH=10mil|MIDLAYER24_MAXWIDTH=10mil|MIDLAYER24_PREFWIDTH=10mil|MIDLAYER25_MINWIDTH=10mil|MIDLAYER25_MAXWIDTH=10mil|MIDLAYER25_PREFWIDTH=10mil|MIDLAYER26_MINWIDTH=10mil|MIDLAYER26_MAXWIDTH=10mil|MIDLAYER26_PREFWIDTH=10mil|MIDLAYER27_MINWIDTH=10mil|MIDLAYER27_MAXWIDTH=10mil|MIDLAYER27_PREFWIDTH=10mil|MIDLAYER28_MINWIDTH=10mil|MIDLAYER28_MAXWIDTH=10mil|MIDLAYER28_PREFWIDTH=10mil|MIDLAYER29_MINWIDTH=10mil|MIDLAYER29_MAXWIDTH=10mil|MIDLAYER29_PREFWIDTH=10mil|MIDLAYER30_MINWIDTH=10mil|MIDLAYER30_MAXWIDTH=10mil|MIDLAYER30_PREFWIDTH=10mil|MINIMP=50.000000|MAXIMP=50.000000|FAVIMP=50.000000|DOC=Creating Classes from Schematic with CM.PcbDoc" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="3d9dda5e-0e36-49c6-af14-a0808ba246c5" />
+        <CNet Id="1b6d0355-af2c-464b-85d3-e9f75618d776" />
+        <CNet Id="3742b2c2-0d80-42fa-837c-b042939969e1" />
+        <CNet Id="d5806ac1-3d3d-45e7-9266-4a653a836797" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="4db220ab-e450-4b3d-8ab3-b4ba5b38fde2" Name="AMP_20" IsPredefined="false" Domain="2">
+      <Constraints>
+        <Constraint Id="76c48caf-824f-4d6a-9ed4-0a34234341df" Kind="2" Name="Schematic Width Constraint" Comment="" Description="Width Constraint [Pref Width = 10mm    Min Width = 10mm    Max Width = 10mm]" Scope1="InNetClass('AMP_20')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=393.7008mil|MINLIMIT=393.7008mil|PREFEREDWIDTH=393.7008mil|MIDLAYER3_MINWIDTH=10mil|MIDLAYER3_MAXWIDTH=10mil|MIDLAYER3_PREFWIDTH=10mil|MIDLAYER4_MINWIDTH=10mil|MIDLAYER4_MAXWIDTH=10mil|MIDLAYER4_PREFWIDTH=10mil|MIDLAYER5_MINWIDTH=10mil|MIDLAYER5_MAXWIDTH=10mil|MIDLAYER5_PREFWIDTH=10mil|MIDLAYER6_MINWIDTH=10mil|MIDLAYER6_MAXWIDTH=10mil|MIDLAYER6_PREFWIDTH=10mil|MIDLAYER7_MINWIDTH=10mil|MIDLAYER7_MAXWIDTH=10mil|MIDLAYER7_PREFWIDTH=10mil|MIDLAYER8_MINWIDTH=10mil|MIDLAYER8_MAXWIDTH=10mil|MIDLAYER8_PREFWIDTH=10mil|MIDLAYER9_MINWIDTH=10mil|MIDLAYER9_MAXWIDTH=10mil|MIDLAYER9_PREFWIDTH=10mil|MIDLAYER10_MINWIDTH=10mil|MIDLAYER10_MAXWIDTH=10mil|MIDLAYER10_PREFWIDTH=10mil|MIDLAYER11_MINWIDTH=10mil|MIDLAYER11_MAXWIDTH=10mil|MIDLAYER11_PREFWIDTH=10mil|MIDLAYER12_MINWIDTH=10mil|MIDLAYER12_MAXWIDTH=10mil|MIDLAYER12_PREFWIDTH=10mil|MIDLAYER13_MINWIDTH=10mil|MIDLAYER13_MAXWIDTH=10mil|MIDLAYER13_PREFWIDTH=10mil|MIDLAYER14_MINWIDTH=10mil|MIDLAYER14_MAXWIDTH=10mil|MIDLAYER14_PREFWIDTH=10mil|MIDLAYER15_MINWIDTH=10mil|MIDLAYER15_MAXWIDTH=10mil|MIDLAYER15_PREFWIDTH=10mil|MIDLAYER16_MINWIDTH=10mil|MIDLAYER16_MAXWIDTH=10mil|MIDLAYER16_PREFWIDTH=10mil|MIDLAYER17_MINWIDTH=10mil|MIDLAYER17_MAXWIDTH=10mil|MIDLAYER17_PREFWIDTH=10mil|MIDLAYER18_MINWIDTH=10mil|MIDLAYER18_MAXWIDTH=10mil|MIDLAYER18_PREFWIDTH=10mil|MIDLAYER19_MINWIDTH=10mil|MIDLAYER19_MAXWIDTH=10mil|MIDLAYER19_PREFWIDTH=10mil|MIDLAYER20_MINWIDTH=10mil|MIDLAYER20_MAXWIDTH=10mil|MIDLAYER20_PREFWIDTH=10mil|MIDLAYER21_MINWIDTH=10mil|MIDLAYER21_MAXWIDTH=10mil|MIDLAYER21_PREFWIDTH=10mil|MIDLAYER22_MINWIDTH=10mil|MIDLAYER22_MAXWIDTH=10mil|MIDLAYER22_PREFWIDTH=10mil|MIDLAYER23_MINWIDTH=10mil|MIDLAYER23_MAXWIDTH=10mil|MIDLAYER23_PREFWIDTH=10mil|MIDLAYER24_MINWIDTH=10mil|MIDLAYER24_MAXWIDTH=10mil|MIDLAYER24_PREFWIDTH=10mil|MIDLAYER25_MINWIDTH=10mil|MIDLAYER25_MAXWIDTH=10mil|MIDLAYER25_PREFWIDTH=10mil|MIDLAYER26_MINWIDTH=10mil|MIDLAYER26_MAXWIDTH=10mil|MIDLAYER26_PREFWIDTH=10mil|MIDLAYER27_MINWIDTH=10mil|MIDLAYER27_MAXWIDTH=10mil|MIDLAYER27_PREFWIDTH=10mil|MIDLAYER28_MINWIDTH=10mil|MIDLAYER28_MAXWIDTH=10mil|MIDLAYER28_PREFWIDTH=10mil|MIDLAYER29_MINWIDTH=10mil|MIDLAYER29_MAXWIDTH=10mil|MIDLAYER29_PREFWIDTH=10mil|MIDLAYER30_MINWIDTH=10mil|MIDLAYER30_MAXWIDTH=10mil|MIDLAYER30_PREFWIDTH=10mil|MINIMP=50.000000|MAXIMP=50.000000|FAVIMP=50.000000|DOC=Creating Classes from Schematic with CM.PcbDoc" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="dd4012d8-faae-44c1-be25-cdc00fdab5f9" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="d7389379-6ee2-4c4c-8df2-f3384df26e51" Name="AMP_30" IsPredefined="false" Domain="2">
+      <Constraints>
+        <Constraint Id="fd10c188-9c41-4184-b6ab-a4f1765804ae" Kind="2" Name="Schematic Width Constraint" Comment="" Description="Width Constraint [Pref Width = 20mm    Min Width = 20mm    Max Width = 20mm]" Scope1="InNetClass('AMP_30')" Scope2="All" Attributes="NETSCOPE=AnyNet|LAYERKIND=SameLayer|MAXLIMIT=787.4016mil|MINLIMIT=787.4016mil|PREFEREDWIDTH=787.4016mil|MIDLAYER3_MINWIDTH=10mil|MIDLAYER3_MAXWIDTH=10mil|MIDLAYER3_PREFWIDTH=10mil|MIDLAYER4_MINWIDTH=10mil|MIDLAYER4_MAXWIDTH=10mil|MIDLAYER4_PREFWIDTH=10mil|MIDLAYER5_MINWIDTH=10mil|MIDLAYER5_MAXWIDTH=10mil|MIDLAYER5_PREFWIDTH=10mil|MIDLAYER6_MINWIDTH=10mil|MIDLAYER6_MAXWIDTH=10mil|MIDLAYER6_PREFWIDTH=10mil|MIDLAYER7_MINWIDTH=10mil|MIDLAYER7_MAXWIDTH=10mil|MIDLAYER7_PREFWIDTH=10mil|MIDLAYER8_MINWIDTH=10mil|MIDLAYER8_MAXWIDTH=10mil|MIDLAYER8_PREFWIDTH=10mil|MIDLAYER9_MINWIDTH=10mil|MIDLAYER9_MAXWIDTH=10mil|MIDLAYER9_PREFWIDTH=10mil|MIDLAYER10_MINWIDTH=10mil|MIDLAYER10_MAXWIDTH=10mil|MIDLAYER10_PREFWIDTH=10mil|MIDLAYER11_MINWIDTH=10mil|MIDLAYER11_MAXWIDTH=10mil|MIDLAYER11_PREFWIDTH=10mil|MIDLAYER12_MINWIDTH=10mil|MIDLAYER12_MAXWIDTH=10mil|MIDLAYER12_PREFWIDTH=10mil|MIDLAYER13_MINWIDTH=10mil|MIDLAYER13_MAXWIDTH=10mil|MIDLAYER13_PREFWIDTH=10mil|MIDLAYER14_MINWIDTH=10mil|MIDLAYER14_MAXWIDTH=10mil|MIDLAYER14_PREFWIDTH=10mil|MIDLAYER15_MINWIDTH=10mil|MIDLAYER15_MAXWIDTH=10mil|MIDLAYER15_PREFWIDTH=10mil|MIDLAYER16_MINWIDTH=10mil|MIDLAYER16_MAXWIDTH=10mil|MIDLAYER16_PREFWIDTH=10mil|MIDLAYER17_MINWIDTH=10mil|MIDLAYER17_MAXWIDTH=10mil|MIDLAYER17_PREFWIDTH=10mil|MIDLAYER18_MINWIDTH=10mil|MIDLAYER18_MAXWIDTH=10mil|MIDLAYER18_PREFWIDTH=10mil|MIDLAYER19_MINWIDTH=10mil|MIDLAYER19_MAXWIDTH=10mil|MIDLAYER19_PREFWIDTH=10mil|MIDLAYER20_MINWIDTH=10mil|MIDLAYER20_MAXWIDTH=10mil|MIDLAYER20_PREFWIDTH=10mil|MIDLAYER21_MINWIDTH=10mil|MIDLAYER21_MAXWIDTH=10mil|MIDLAYER21_PREFWIDTH=10mil|MIDLAYER22_MINWIDTH=10mil|MIDLAYER22_MAXWIDTH=10mil|MIDLAYER22_PREFWIDTH=10mil|MIDLAYER23_MINWIDTH=10mil|MIDLAYER23_MAXWIDTH=10mil|MIDLAYER23_PREFWIDTH=10mil|MIDLAYER24_MINWIDTH=10mil|MIDLAYER24_MAXWIDTH=10mil|MIDLAYER24_PREFWIDTH=10mil|MIDLAYER25_MINWIDTH=10mil|MIDLAYER25_MAXWIDTH=10mil|MIDLAYER25_PREFWIDTH=10mil|MIDLAYER26_MINWIDTH=10mil|MIDLAYER26_MAXWIDTH=10mil|MIDLAYER26_PREFWIDTH=10mil|MIDLAYER27_MINWIDTH=10mil|MIDLAYER27_MAXWIDTH=10mil|MIDLAYER27_PREFWIDTH=10mil|MIDLAYER28_MINWIDTH=10mil|MIDLAYER28_MAXWIDTH=10mil|MIDLAYER28_PREFWIDTH=10mil|MIDLAYER29_MINWIDTH=10mil|MIDLAYER29_MAXWIDTH=10mil|MIDLAYER29_PREFWIDTH=10mil|MIDLAYER30_MINWIDTH=10mil|MIDLAYER30_MAXWIDTH=10mil|MIDLAYER30_PREFWIDTH=10mil|MINIMP=50.000000|MAXIMP=50.000000|FAVIMP=50.000000|DOC=Creating Classes from Schematic with CM.PcbDoc" />
+      </Constraints>
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="dfca01f5-0739-440f-8771-e388e028dbcb" />
+        <CNet Id="27e39195-c1b2-4919-9266-38e9dd5195c9" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="d0077d98-983b-4153-b7c3-dcefccf86cf5" Name="VOLTAGE_120" IsPredefined="false" Domain="2">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="3d9dda5e-0e36-49c6-af14-a0808ba246c5" />
+        <CNet Id="1b6d0355-af2c-464b-85d3-e9f75618d776" />
+        <CNet Id="d5806ac1-3d3d-45e7-9266-4a653a836797" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+    <CNetClass Id="44a07a46-ed4a-4164-9d58-52177259ddff" Name="VOLTAGE_240" IsPredefined="false" Domain="2">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CNets>
+        <CNet Id="dfca01f5-0739-440f-8771-e388e028dbcb" />
+        <CNet Id="3742b2c2-0d80-42fa-837c-b042939969e1" />
+        <CNet Id="dd4012d8-faae-44c1-be25-cdc00fdab5f9" />
+        <CNet Id="27e39195-c1b2-4919-9266-38e9dd5195c9" />
+      </CNets>
+      <ObservedDirectiveParamsUniqueIds />
+    </CNetClass>
+  </CNetClasses>
+  <CDifferentialPairs />
+  <CDifferentialPairClasses>
+    <CDifferentialPairClass Id="1f19d65e-e45f-4a70-b8f2-9f616a9ae25a" Name="All Differential Pairs" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CDifferentialPairs />
+      <ObservedDirectiveParamsUniqueIds />
+    </CDifferentialPairClass>
+  </CDifferentialPairClasses>
+  <CPinPairs />
+  <CxSigClasses />
+  <CxNets />
+  <CXNetClasses>
+    <CXNetClass Id="bead113e-f439-4c31-8e72-41670437a82c" Name="All xNets" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CXNets />
+    </CXNetClass>
+  </CXNetClasses>
+  <ConstraintClearancesMatrix>
+    <CCMFromScopes>
+      <CCMFromScope Id="928e739d-3af9-4790-8e66-23df7b4cf45c">
+        <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+        <CCMToScopes>
+          <CCMToScope Id="b9cec49d-c7c2-4893-91e8-e47f34580fc6" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints />
+          </CCMToScope>
+          <CCMToScope Id="e522b9e2-d0a5-4f46-8e70-e55abc6cc904" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="d0077d98-983b-4153-b7c3-dcefccf86cf5" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="f8d56603-3116-4d45-92e7-0c9fbc518b14" Kind="0" Name="ClearanceVOLTAGE_120_1" Comment="" Description="Clearance Constraint [Clearance = 3.2mm]" Scope1="OnOutside" Scope2="InNetClass('VOLTAGE_120') And OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=126mil|GENERICCLEARANCE=126mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="86c7a49d-b767-4a71-bc49-1867c786e1cf" Kind="0" Name="ClearanceVOLTAGE_120_2" Comment="" Description="Clearance Constraint [Clearance = 3.2mm]" Scope1="OnMid" Scope2="InNetClass('VOLTAGE_120') And OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=126mil|GENERICCLEARANCE=126mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
+          </CCMToScope>
+          <CCMToScope Id="77a8dc99-af8a-4b87-b703-28e19b045562" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="44a07a46-ed4a-4164-9d58-52177259ddff" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="ad2fd4f8-81a8-4a62-a648-19b69695efa0" Kind="0" Name="ClearanceVOLTAGE_240_2" Comment="" Description="Clearance Constraint [Clearance = 6.401mm]" Scope1="OnOutside" Scope2="InNetClass('VOLTAGE_240') And OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=252mil|GENERICCLEARANCE=252mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="438081c9-b541-4b96-bf37-db7233fde1e7" Kind="0" Name="ClearanceVOLTAGE_240_3" Comment="" Description="Clearance Constraint [Clearance = 6.401mm]" Scope1="OnMid" Scope2="InNetClass('VOLTAGE_240') And OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=252mil|GENERICCLEARANCE=252mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
+          </CCMToScope>
+        </CCMToScopes>
+      </CCMFromScope>
+      <CCMFromScope Id="d9e3c027-6ccd-4c11-906f-a2250de8de4e">
+        <ConstraintObject Id="d0077d98-983b-4153-b7c3-dcefccf86cf5" />
+        <CCMToScopes>
+          <CCMToScope Id="1f0107d9-2ce8-429f-8e2d-9f1628a88f07" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="f8d56603-3116-4d45-92e7-0c9fbc518b14" Kind="0" Name="ClearanceAll_2" Comment="" Description="Clearance Constraint [Clearance = 3.2mm]" Scope1="InNetClass('VOLTAGE_120') And OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=126mil|GENERICCLEARANCE=126mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="86c7a49d-b767-4a71-bc49-1867c786e1cf" Kind="0" Name="ClearanceAll_3" Comment="" Description="Clearance Constraint [Clearance = 3.2mm]" Scope1="InNetClass('VOLTAGE_120') And OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=126mil|GENERICCLEARANCE=126mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
+          </CCMToScope>
+        </CCMToScopes>
+      </CCMFromScope>
+      <CCMFromScope Id="864e050e-53b5-49c8-b468-1fcb6d868469">
+        <ConstraintObject Id="44a07a46-ed4a-4164-9d58-52177259ddff" />
+        <CCMToScopes>
+          <CCMToScope Id="3fab8b17-ce94-4243-9c2d-7da3735a2833" SetId="00000000-0000-0000-0000-000000000000">
+            <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
+            <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
+            <CCMConstraints>
+              <CCMConstraint Id="ad2fd4f8-81a8-4a62-a648-19b69695efa0" Kind="0" Name="ClearanceAll_5" Comment="" Description="Clearance Constraint [Clearance = 6.401mm]" Scope1="InNetClass('VOLTAGE_240') And OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=252mil|GENERICCLEARANCE=252mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="438081c9-b541-4b96-bf37-db7233fde1e7" Kind="0" Name="ClearanceAll_6" Comment="" Description="Clearance Constraint [Clearance = 6.401mm]" Scope1="InNetClass('VOLTAGE_240') And OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=252mil|GENERICCLEARANCE=252mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= |DOC=Creating Classes from Schematic with CM.PcbDoc" LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
+          </CCMToScope>
+        </CCMToScopes>
+      </CCMFromScope>
+    </CCMFromScopes>
+  </ConstraintClearancesMatrix>
+  <ConstraintSameNetClearancesMatrix>
+    <CCMFromScopes />
+  </ConstraintSameNetClearancesMatrix>
+  <CSets />
+  <CClearancesMatrixSets />
+  <CCMCreepageConstraints />
+  <CImportedDirectiveUniqueIds />
+  <OtherConstraints />
+  <NetGroups />
+  <Settings UnitSystem="SI" />
+  <FileVersion MinorVersion="5">
+    <FileVersionInfo />
+  </FileVersion>
+</ConstraintsData>
