@@ -2,7 +2,7 @@
 
 This repository contains all projects & assignments associated with the completion of the Altium Designer Advanced with Altium 365 Certification. The certification covers topics such as advanced PCB design workflows, constraint management, high-speed routing, multiboard system projects, and more.
 
-For more information about the certification, visit the [Altium Designer Advanced with Altium 365 Certification Page](https://www.altium.com/training/altium-designer-with-altium-365-private-instruction).
+For more information about the certification, visit the [Altium Designer Advanced with Altium 365 Course Training Page](https://www.altium.com/training/altium-designer-with-altium-365-private-instruction).
 
 ## Projects
 Active Route and Re-Routing
