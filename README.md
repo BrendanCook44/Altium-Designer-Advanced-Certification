@@ -58,4 +58,4 @@ Via Shielding and Via Stitching
 ## How to Use
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YourUsername/Altium-Designer-Advanced-Certification
+   git clone https://github.com/BrendanCook44/Altium-Designer-Advanced-Certification
