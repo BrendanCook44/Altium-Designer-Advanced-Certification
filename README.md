@@ -1,63 +1,62 @@
-Altium Designer Advanced Certification
+# Altium Designer Advanced Certification
 
-This repository contains all projects and assignments completed as part of the Altium Designer Advanced Certification. The certification explores complex PCB design workflows, layout techniques, constraint management, high-speed design, and multiboard projects using advanced features of Altium Designer.
 
-For more information about Altium Designer and certification details, visit the Altium Education Portal.
-Contents
-Core Projects
+This repository contains all projects & assignments associated with the completion of the Altium Designer Advanced Certification. The certification covers advanced PCB design workflows, constraint management, high-speed routing, and multiboard systems using Altium Designer.
 
-    Active Route and Re-Routing
+For more information about the certification, visit the Altium Education Portal.
 
-    ActiveBOM
+## Projects
+        Active Route and Re-Routing
 
-    BackDrill
+        ActiveBOM
 
-    Clearance Checking in 3D
+        BackDrill
 
-    Creating Classes from Schematic with Constraint Manager
+        Clearance Checking in 3D
 
-    Creating and Using Design Reuse Block in a Workspace
+        Creating Classes from Schematic with Constraint Manager
 
-    Defining the Board Shape from a 3D Model
+        Creating and Using Design Reuse Block in a Workspace
 
-    Design Rule Queries
+        Defining the Board Shape from a 3D Model
 
-    Differential Pair Routing with Impedance Profile and Constraint Manager
+        Design Rule Queries
 
-    Embedded Board Array
+        Differential Pair Routing with Impedance Profile and Constraint Manager
 
-    Kame_FMU
+        Embedded Board Array
 
-    Length Tuning Routing with Constraint Manager
+        Kame_FMU
 
-    Multi-Channel Design
+        Length Tuning Routing with Constraint Manager
 
-    Multiboard Project: Bicycle LED System
+        Multi-Channel Design
 
-    PCB CoDesign
+        Multiboard Project: Bicycle LED System
 
-    PCB Layout Replication
+        PCB CoDesign
 
-    Pin Swapping
+        PCB Layout Replication
 
-    Rigid-Flex Design
+        Pin Swapping
 
-    Teardrops
+        Rigid-Flex Design
 
-    Training Project from Custom Template
+        Teardrops
 
-    Using Design Variants
+        Training Project from Custom Template
 
-    Using Signal Harnesses
+        Using Design Variants
 
-    Using a Design Reuse Block
+        Using Signal Harnesses
 
-    Using xSignals in a High-Speed Design with Constraint Manager
+        Using a Design Reuse Block
 
-    Via Shielding and Via Stitching
+        Using xSignals in a High-Speed Design with Constraint Manager
 
-How to Use
+        Via Shielding and Via Stitching
 
-Clone this repository:
-
-git clone https://github.com/YourUsername/Altium-Designer-Advanced-Certification
+## How to Use
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/YourUsername/Altium-Designer-Advanced-Certification
